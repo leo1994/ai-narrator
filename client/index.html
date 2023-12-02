@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Webcam Page</title>
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://cdn.socket.io/4.7.2/socket.io.min.js"
+      integrity="sha384-mZLF4UVrpi/QTWPA7BjNPEnkIfRFn4ZEO3Qt/HFklTJBj/gBOV8G3HcKn4NfQblz"
+      crossorigin="anonymous"
+    ></script>
+    <style></style>
+  </head>
+  <style></style>
+  <body>
+    <main id="container">
+      <div id="webcamContainer">
+        <video id="webcam"></video>
+      </div>
+      <div id="narratorContainer">
+        <p id="narratorText"></p>
+        <button id="button">Play</button>
+      </div>
+    </main>
+    <canvas id="background"></canvas>
+    <audio id="audioElement" controls style="display: none"></audio>
+
+    <script src="./background.js"></script>
+    <script src="./client.js"></script>
+  </body>
+</html>

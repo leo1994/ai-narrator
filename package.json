@@ -1,0 +1,10 @@
+{
+  "scripts": {
+    "start": "node --env-file .env server/app.js"
+  },
+  "dependencies": {
+    "elevenlabs-node": "^2.0.1",
+    "openai": "^4.20.1",
+    "socket.io": "^4.7.2"
+  }
+}
