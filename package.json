@@ -1,10 +1,14 @@
 {
   "scripts": {
-    "start": "node --env-file .env server/app.js"
+    "start:server": "node --env-file .env server/app.js",
+    "start:client": "npx http-server client"
   },
   "dependencies": {
     "elevenlabs-node": "^2.0.1",
     "openai": "^4.20.1",
     "socket.io": "^4.7.2"
+  },
+  "engines": {
+    "node": ">=20.6.0"
   }
 }
