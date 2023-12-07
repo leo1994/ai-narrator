@@ -2,6 +2,10 @@
 
 Someone at my work shared a Tweet about this [project here](https://github.com/cbh123/narrator), and I decided to make a clone in Node.JS
 
+
+https://github.com/leo1994/ai-narrator/assets/11665444/0bc2c48a-5472-42aa-8147-957905ebca07
+
+
 ## Requirements
 
 - Node v20.6.0
